@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Irish+Grover&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.left-sidebar{
+    background: #0E1B34;
+    height: 100vh;
+}
+
+.right-sidebar{
+    background: #D9D9D9;
+    border: 1px solid #2c364c17;
+}
+
+.logo img{
+    width: 50px;
+}
+
+form{
+    background: #fff;
+    padding: 20px 3rem;
+}
+
+form input {
+    border: none;
+    outline: 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #2C364C;
+}
+
+.left-sidebar-btn-container button{
+    min-width: 220px;
+    border: none;
+    min-height: 3.5rem;
+    color: #0E1B34;
+}
+
+
+.left-sidebar-btn-container p, span{
+    margin: 0;
+    padding: 0;
+}
+
+.under-txt{
+    font-size: 0.8rem;
+    margin: 0;
+    color: #0E1B34;
+}
+
+div.user-description div span, b, h6{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+.modal-content{
+    background: #c4bfbf;
+}
+
+.bottom-line-general-info{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.bottom-line-general-info::before{
+    content: "";
+    width: 130px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 27px;
+}
+
+.bottom-line-financial-info{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.bottom-line-financial-info::before{
+    content: "";
+    width: 130px;
+    height: 2px;
+    background: #6b6868;
+    position: absolute;
+    top: 27px;
+}
+
+.modal-title{
+    font-family: 'Inknut Antiqua', serif;
+    color:#284458;
+}
+
+.modal-title, .basic-info{
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.biography-container .biography-heading{
+    font-family: 'Irish Grover', cursive;
+}
+ .modal-body{
+    position: relative;
+ }
+
+.btn-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1em;
+}
+
+.btn-details{
+    background: #182e57;
+    border: 1px solid #0E1B34;
+    color: #ffff;
+}
+
+.btn-details:hover{
+    background: #060c16;
+    border: 1px solid #060c16;
+    color: #ffff;
+}

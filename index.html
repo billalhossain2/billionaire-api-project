@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, Billionaires!</title>
+  </head>
+  <body>
+    <div class="container">
+       <div class="row">
+        <div id="left-sidebar" class="left-sidebar col-md-4 gy-1 text-center gx-2">
+          <div class="my-4">
+            <img src="./img/logo/logo.png" alt="Billionaire Logo">
+          </div class="my-4">
+          <p class="left-sidebar-btn-container">
+            <button class="left-sidebar-btn">
+              <span class="fw-bolder">Sort By Rank</span> <br>
+              <span class="under-txt">(Decending)</span>
+            </button>
+          </p>
+
+          <p class="left-sidebar-btn-container">
+            <button class="fw-bolder left-sidebar-btn">Calculate The Entire Wealth</button>
+          </p>
+
+          <p class="left-sidebar-btn-container">
+            <button class="fw-bolder left-sidebar-btn">Show All Billionaires</button>
+          </p>
+
+          <p class="left-sidebar-btn-container">
+            <button class="left-sidebar-btn">
+              <span class="fw-bolder">Rihcest by industry</span> <br>
+              <span class="under-txt">(Technology)</span>
+            </button>
+          </p>
+
+          <p class="left-sidebar-btn-container">
+            <button class="left-sidebar-btn">
+              <span class="fw-bolder">Richest by states</span> <br>
+              <span class="under-txt">(Texas)</span>
+            </button>
+          </p>
+        </div>
+
+        <div class="col-md-8 gy-1 gx-0 right-sidebar">
+          <form action="#" class="d-flex justify-content-between" onsubmit="return false">
+            <input id="search-field" type="text" placeholder="Search name or rank">
+            <div class="logo">
+              <img src="./img/logo/logo1.png" alt="">
+            </div>
+          </form>
+
+          <div class="px-5">
+            <div class="table-responsive">
+            <table class="table caption-top table-striped table-sm align-middle">
+              <caption class="table-caption pt-4" style="color: black; font-weight: bolder">Hello, User!</caption>
+              <thead id="table-head">
+                  <!-- Dynmic rows  -->
+              </thead>
+              <tbody id="table-body">
+               
+              </tbody>
+              <tfoot id="table-footer">
+                
+              </tfoot>
+            </table>
+          </div>
+          </div>
+        </div>
+       </div>
+    </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div id="modal-body" class="modal-body">
+       <!-- Dynamic content will go here..... -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Custom Js  -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
